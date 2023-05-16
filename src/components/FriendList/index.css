@@ -1,0 +1,106 @@
+
+.friend-list-wrapper {
+    height: 82vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.friend-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.friend-list-menu {
+    margin: 5px;
+    border-radius: 4px;
+    background: linear-gradient(to right,#FFFFCC,#CCFFFF,#FFCCCC);
+    justify-content: space-around !important;
+    box-shadow: -3px 3px 3px #888;
+}
+
+.friend-list-menu-btn {
+    background: linear-gradient(to right,#FFCC99,#FFFFCC);
+    border-radius: 4px;
+    width: 30px;
+    border: none;
+    box-shadow: -3px 3px 3px #888;
+}
+
+.friend-list-group,
+.friend-list-member {
+    text-align: center;
+    margin: 5px;
+    border-radius: 4px;
+    letter-spacing: 5px;
+    box-shadow: -3px 3px 3px #888;
+}
+
+.friend-list-group {
+    background: linear-gradient(to right, #CC3399, #FFCC99, #FF6666);
+}
+
+.friend-list-member {
+    background: linear-gradient(to right, #FF9999, #FFFFFF, #FFCC99);
+    transition: 2s;
+}
+
+.friend-list-hidden {
+    display: none !important;
+}
+
+.friend-list-group-btn-info,
+.friend-list-group-btn-success,
+.friend-list-group-btn-primary,
+.friend-list-group-btn-danger {
+    width: 12vw;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: -3px 3px 3px #888;
+}
+
+.friend-list-group-btn-info {
+    background: linear-gradient(to right,#CCCC99,#99CC00);
+    color: #fff;
+}
+
+.friend-list-group-btn-success {
+    background: linear-gradient(to right,#CCCC99,#339999);
+    color: #fff;
+}
+
+.friend-list-group-btn-primary {
+    background: linear-gradient(to right,#99CCFF,#336699);
+    color: #fff;
+}
+
+.friend-list-group-btn-danger {
+    background: linear-gradient(to right,#FF9966,#FF0033);
+    color: #fff;
+}
+
+.friend-list-group:hover,
+.friend-list-member:hover,
+.friend-list-menu-btn:hover,
+.friend-list-group-btn-info:hover,
+.friend-list-group-btn-primary:hover,
+.friend-list-group-btn-success:hover,
+.friend-list-group-btn-move:hover,
+.friend-list-group-btn-danger:hover {
+    opacity: 0.9;
+}
+
+.friend-list-group-btn-info:active,
+.friend-list-group-btn-success:active,
+.friend-list-group-btn-primary:active,
+.friend-list-group-btn-danger:active,
+.friend-list-menu-btn:active{
+    transform: scale(0.9, 0.9);
+}
+
+
+
+
+

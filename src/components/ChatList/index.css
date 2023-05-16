@@ -1,0 +1,99 @@
+
+.chat-list-wrapper{
+    height: 69vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.chat-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.chat-list-card-sender-content,
+.chat-list-receiver-content{
+    margin: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    box-shadow: 0 5px 5px #888;
+}
+
+.chat-list-card-sender-content{
+    display: flex;
+    background: linear-gradient(to right,#FFFFCC,#FFCCCC);
+    flex-direction: row-reverse;
+    flex-wrap:wrap;
+}
+
+.chat-list-receiver-content {
+    display: flex;
+    background: #FFF;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.chat-list-card-sender-content p,
+.chat-list-receiver-content p{
+    padding: 5px 10px;
+    margin: 0;
+    word-break: break-all;
+}
+
+.chat-list-card-sender{
+    text-align: right;
+}
+
+.chat-list-card-unread{
+    text-align: center;
+    font-size: 8px;
+    color: red;
+}
+
+.chat-list-card-time,
+.chat-list-card-read{
+    text-align: center;
+    font-size: 8px;
+    color: #CCCCCC;
+}
+
+.chat-list-input-wrapper{
+    height: 13vh;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.chat-list-input {
+    width: 66%;
+    margin: 3%;
+    padding: 1%;
+    border: 1px solid #CCC;
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px #888;
+}
+
+.chat-list-input:hover{
+    border: 1px solid #1890ff;
+}
+
+.chat-list-input-btn,.chat-list-input-btn-disabled{
+    width: 22%;
+    margin: 3%;
+    color: #FFF;
+    border-radius: 4px;
+    letter-spacing: 5px;
+    padding: 4px 15px;
+    outline: none;
+    box-shadow: 0 5px 5px #888;
+    border: none;
+}
+
+.chat-list-input-btn{
+    background: linear-gradient(to right,#CCCCCC,#6699CC);
+}
+
+.chat-list-input-btn-disabled{
+    background: linear-gradient(to right,#CCFFFF,#CCCCCC);
+}

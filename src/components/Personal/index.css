@@ -1,0 +1,105 @@
+
+.personal-card-wrapper {
+    height: 50vh;
+    width: 100%;
+}
+
+.personal-request-list-wrapper{
+    height: 20vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.personal-request-list-item{
+    background: linear-gradient(to right,#FFFFCC,#CCCC66);
+    margin: 10px;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px #888;
+}
+
+.personal-request-list-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.personal-request-list-header-input{
+    width: 25vw;
+    padding: 8px;
+    text-align: center;
+    border-radius:4px;
+    box-shadow: 0 5px 5px #888;
+}
+
+.personal-request-list-header-btn,
+.personal-request-list-header-btn-disabled{
+    width: 25vw;
+    border-radius:4px;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    outline: none;
+    letter-spacing: 5px;
+    box-shadow: 0 5px 5px #888;
+}
+
+.personal-request-list-header-btn{
+    background: linear-gradient(to right,#99CCFF,#336699);
+}
+
+.personal-request-list-header-btn-disabled{
+    background: linear-gradient(to right,#CCFFFF,#CCCCCC);
+}
+
+.personal-request-list-btn-agree{
+    background: linear-gradient(to right,#99CCFF,#336699);
+    color: #fff;
+    border: none;
+    padding: 8px;
+    outline: none;
+    letter-spacing: 5px;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px #888;
+}
+
+.personal-btn{
+    width: 200px;
+}
+
+.personal-request-list-btn-disagree,
+.personal-btn{
+    background: linear-gradient(to right,#FF9966,#FF0033);
+    color: #fff;
+    border: none;
+    padding: 8px;
+    outline: none;
+    letter-spacing: 5px;
+    border-radius: 4px;
+    box-shadow: 0 5px 5px #888;
+}
+
+.personal-btn:hover,
+.personal-request-list-btn-agree:hover,
+.personal-request-list-header-btn:hover,
+.personal-request-list-btn-disagree:hover{
+    opacity: 0.6;
+}
+
+.personal-btn:active,
+.personal-request-list-btn-agree:active,
+.personal-request-list-header-btn:active,
+.personal-request-list-btn-disagree:active{
+    transform: scale(0.9,0.9);
+}
+
+.personal-btn-wrapper{
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+}
+
+.personal-card-list{
+    text-align: center;
+}
+
+

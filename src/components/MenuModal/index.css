@@ -1,0 +1,132 @@
+
+.menu-modal-wrapper{
+    left: 50%;
+    margin-top: 100px;
+    margin-left:-150px;
+    position: absolute;
+    background: linear-gradient(to right,#ccc,#fff);
+    width: 300px;
+    z-index: 999;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 5px 5px #888;
+}
+
+.menu-modal-wrapper-hidden{
+    display: none !important;
+}
+
+.menu-modal-header,
+.menu-modal-content{
+    padding: 8px;
+}
+
+.menu-modal-header{
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    letter-spacing: 5px;
+    justify-content: space-between;
+}
+
+.menu-modal-header-title{
+    font-size: 16px;
+}
+
+.menu-modal-content{
+    padding: 10px;
+}
+
+.menu-modal-header-btn{
+    background: #ff4d4f;
+    border: 1px solid #ff4d4f;
+    color: #fff;
+    border-radius: 4px;
+    outline: none;
+}
+
+.modal-input-wrapper{
+    text-align: center;
+}
+
+.modal-input{
+    width: 88%;
+    margin: 3%;
+    padding: 3%;
+    outline: none;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+    box-shadow: 0 3px 3px #888;
+}
+
+.modal-input-btn,
+.modal-input-btn-disabled{
+    color: #fff;
+    border: none;
+    width: 15vw;
+    height: 30px;
+    letter-spacing: 5px;
+    border-radius:4px;
+    outline: none;
+    margin: 10px 0;
+    box-shadow: 0 3px 3px #888;
+}
+
+.modal-input-btn{
+    background: linear-gradient(to right,#99CCFF,#336699);
+}
+
+.modal-input-btn-disabled{
+    background: linear-gradient(to right,#CCFFFF,#CCCCCC);
+}
+
+.modal-list-wrapper{
+    text-align: center;
+}
+
+.modal-list,
+.modal-list-select{
+    border-radius: 4px;
+    margin: 10px;
+    height: 30px;
+    line-height: 30px;
+    letter-spacing: 5px;
+    cursor: default;
+}
+
+.modal-list-select{
+    background: #66CCCC;
+    color: #fff;
+    box-shadow: 0 3px 3px #888;
+}
+
+.modal-list:hover{
+    background:#ccc;
+    opacity: 0.5;
+}
+
+.modal-list-btn{
+    color: #fff;
+    width: 15vw;
+    height: 30px;
+    margin: 10px;
+    outline: none;
+    border-radius:4px;
+    background: linear-gradient(to right,#CCCC99,#99CC00);
+    color: #fff;
+    border: none;
+    box-shadow: 0 3px 3px #888;
+}
+
+.menu-modal-header-btn:hover,
+.modal-input-btn:hover,
+.modal-list-btn:hover{
+    opacity: 0.9;
+}
+
+.modal-input-btn:active,
+.modal-list-btn:active,
+.menu-modal-header-btn:active{
+    transform: scale(0.9,0.9);
+}
